@@ -30,6 +30,12 @@ The retained runtime also records **1.721952 s** for a separately prepared **257
 
 See [Results and measurement scope](docs/RESULTS.md) for the full context.
 
+## Visual examples
+
+[View three source/NK8 comparison panels](docs/EXAMPLES.md): shell texture, a classic car and a wildlife photograph. Each includes identical 512 x 512 native-pixel crops, original JPEG and complete NK8 archive sizes, full-image PSNR, and source/author attribution. The PNG figures are lossless presentation files; their file sizes are not the codec's archive sizes.
+
+[![Classic car: source JPEG versus NK8 reconstruction](examples/classic-car.png)](docs/EXAMPLES.md)
+
 ## What NK8 does
 
 1. Transforms image pixels into compact learned features.

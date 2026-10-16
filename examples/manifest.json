@@ -1,0 +1,82 @@
+{
+  "profile": "L8-experimental-extrapolated-v1",
+  "generated_date": "2026-10-16",
+  "scope": "Three illustrative previously validated corpus images, selected for content variety before decoding. Not a representative compression benchmark. No new encoding or timing run.",
+  "rows": [
+    {
+      "name": "shell-texture",
+      "id": "open_images/c37c300dfdc8d819",
+      "width": 2592,
+      "height": 1944,
+      "source_bytes": 490466,
+      "archive_bytes": 415488,
+      "psnr_db": 45.1192925747901,
+      "decoded_pixel_sha256": "c4b41468a075ccbe57ce35a8b3a673d03aef27bd9260fb93a0ea100ebede30e8",
+      "title": "180",
+      "author": "IvanWalsh.com",
+      "source_page": "https://www.flickr.com/photos/ivanwalsh/4225450808",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "reference_pixel_match": true,
+      "crop_xyxy": [
+        980,
+        600,
+        1492,
+        1112
+      ],
+      "figure": "examples/shell-texture.png",
+      "figure_sha256": "c8ac4b5f123c5cb05cc393c4f357ef122ebc50b2b5e336c89afabe751bfd12fb",
+      "original_format": "JPEG",
+      "archive_relative_to_source": 0.8471290568561327
+    },
+    {
+      "name": "wildlife-detail",
+      "id": "open_images/0d035b68ebd76f87",
+      "width": 4288,
+      "height": 2848,
+      "source_bytes": 6096195,
+      "archive_bytes": 1114560,
+      "psnr_db": 44.65089162748051,
+      "decoded_pixel_sha256": "20bae72a8b9d9d760847310d4baa470276ef2fd3a8bc6daed4933735d31ad2bc",
+      "title": "The line must be drawn here! This far and no further!",
+      "author": "Jasen Miller",
+      "source_page": "https://www.flickr.com/photos/cptspock/2532055226",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "reference_pixel_match": true,
+      "crop_xyxy": [
+        2160,
+        760,
+        2672,
+        1272
+      ],
+      "figure": "examples/wildlife-detail.png",
+      "figure_sha256": "91479ff5f453db5bc45c031eee30f6545ca937b4e79d6408a17e820071c5bd85",
+      "original_format": "JPEG",
+      "archive_relative_to_source": 0.18282879730717275
+    },
+    {
+      "name": "classic-car",
+      "id": "open_images/5e472cbdc51dbe02",
+      "width": 2441,
+      "height": 1823,
+      "source_bytes": 3035048,
+      "archive_bytes": 1233728,
+      "psnr_db": 41.92890557027273,
+      "decoded_pixel_sha256": "773a4d4c4df21357080000ee33ae7636f72a4b598aee516f6890bb136f2df90c",
+      "title": "Volvo P 21134 (1964)",
+      "author": "FaceMePLS",
+      "source_page": "https://www.flickr.com/photos/faceme/7562216950",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "reference_pixel_match": true,
+      "crop_xyxy": [
+        1050,
+        750,
+        1562,
+        1262
+      ],
+      "figure": "examples/classic-car.png",
+      "figure_sha256": "cad16f0e08cbeef3dc4f3739499955d52dc30dca4e977e8977a240b0561a2400",
+      "original_format": "JPEG",
+      "archive_relative_to_source": 0.4064937358486587
+    }
+  ]
+}

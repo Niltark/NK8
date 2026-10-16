@@ -2,7 +2,7 @@
 
 These results summarize preserved internal reports from 12-13 October 2026 for NK8's experimental L8 profile. The public documentation was prepared on 16 October 2026. No benchmark was rerun for this publication.
 
-Source images, archives, raw internal reports and implementation code are not distributed here. These are developer-reported measurements, not a publicly reproducible benchmark release or an independent codec comparison.
+The full source corpus, NK8 archives, raw internal reports and implementation code are not distributed here. Three attributed visual comparisons are provided in [Examples](EXAMPLES.md). These are developer-reported measurements, not a publicly reproducible benchmark release or an independent codec comparison.
 
 ## Larger corpus: size and fidelity
 

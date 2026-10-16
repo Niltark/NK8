@@ -9,3 +9,10 @@
 !/docs/RESULTS.md
 !/docs/FAQ.md
 !/docs/results.json
+!/docs/EXAMPLES.md
+!/examples/
+/examples/*
+!/examples/shell-texture.png
+!/examples/wildlife-detail.png
+!/examples/classic-car.png
+!/examples/manifest.json
