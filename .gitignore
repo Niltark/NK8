@@ -1,0 +1,11 @@
+# Documentation-only publication: ignore everything except explicitly listed files.
+/*
+!/.gitignore
+!/README.md
+!/RIGHTS.md
+!/docs/
+/docs/*
+!/docs/ARCHITECTURE.md
+!/docs/RESULTS.md
+!/docs/FAQ.md
+!/docs/results.json

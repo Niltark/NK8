@@ -1,0 +1,39 @@
+{
+  "project": "NK8",
+  "version": "1.0.0",
+  "profile": "L8-experimental-extrapolated-v1",
+  "measurement_date": "2026-10-13",
+  "publication_prepared_date": "2026-10-16",
+  "evidence_status": "Developer-reported historical results; raw evidence and corpus are not publicly distributed; no rerun for publication.",
+  "device": "NVIDIA GeForce RTX 5090",
+  "platform": "x86-64 WSL2 Ubuntu 24.04",
+  "large_corpus": {
+    "images": 2506,
+    "source_bytes": 9848090481,
+    "pixels": 6903142283,
+    "tiles": 5165,
+    "archive_bytes": 1392634048,
+    "decoded_rgb_bytes": 20709426849,
+    "mean_rgb8_psnr_db": 42.024456,
+    "initial_warm_decode_seconds": [18.812879, 18.856922, 18.969954],
+    "initial_warm_decode_median_seconds": 18.856922,
+    "later_optimized_warm_decode_seconds": 16.483,
+    "later_control_warm_decode_seconds": 18.755,
+    "campaign_note": "Later optimization uses the same corpus and archives, with different prepared-cache coverage; it is a separate campaign.",
+    "rgb_reference_matches": 2506,
+    "alpha_present": false
+  },
+  "separately_prepared_small_panel": {
+    "images": 257,
+    "source_bytes": 1005280008,
+    "pixels_approx": 714877000,
+    "tiles": 529,
+    "archive_bytes": 139875968,
+    "retained_warm_decode_seconds": 1.721952,
+    "preparation_note": "Prepared on this panel only; do not mix with the larger-corpus preparation state."
+  },
+  "timer_includes": ["warm local archive reads", "archive integrity and entropy index/symbol checks", "CPU entropy decode", "GPU reconstruction", "RGB8 assembly and streaming consumption in host memory"],
+  "timer_excludes": ["model loading", "initial graph/table preparation and qualification", "final RGB reference hash comparisons", "quality calculation", "PNG/JPEG output", "cloud retrieval"],
+  "rgb_compression": "lossy",
+  "public_cross_codec_comparison": false
+}
